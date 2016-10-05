@@ -2,23 +2,30 @@
 % Please edit documentation in R/hi.R
 \name{hi}
 \alias{hi}
-\title{Help start conversations}
+\title{Help start conversations
+This function generates some helpful text that can be used to start
+conversations in all kinds of awkward social situtations.}
 \usage{
-hi(who)
+hi(who, how = c("shout", "whisper"))
 }
 \arguments{
-\item{who}{character(1) The name of a person you wish to start a 
+\item{who}{character(1) The name of a person you wish to start a
 conversation with}
+
+\item{how}{character(1) Either shout or whisper to determine intensity of
+output}
 }
 \value{
 character(1) Line of text to be used when starting conversations
 }
 \description{
+Help start conversations
 This function generates some helpful text that can be used to start
 conversations in all kinds of awkward social situtations.
 }
 \examples{
 hi("Lori Shepherd")
+hi("MiniMe", "whisper")
 
 }
 
