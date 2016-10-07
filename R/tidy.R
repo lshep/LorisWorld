@@ -12,11 +12,14 @@
 #' @return A data.frame with 'tidy' formatting.
 #'
 #' @importFrom reshape2 melt
+#' @importFrom dplyr tbl_df
+#' @importFrom magrittr %>%
 #'
 #' @export
 
 input_tidy <- function(pdata_file, exprs_file){
     classic <- input_classic(pdata_file, exprs_file)
-    melt(classic, id.vars=1:22, variable.name="probeset", value.name="exprs")
+    melt(classic, id.vars=1:22, variable.name="probeset",
+         value.name="exprs") %>% tbl_df
 
 }

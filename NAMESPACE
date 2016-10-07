@@ -3,4 +3,6 @@
 export(hi)
 export(input_classic)
 export(input_tidy)
+importFrom(dplyr,tbl_df)
+importFrom(magrittr,"%>%")
 importFrom(reshape2,melt)
