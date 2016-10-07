@@ -2,3 +2,5 @@
 
 export(hi)
 export(input_classic)
+export(input_tidy)
+importFrom(reshape2,melt)

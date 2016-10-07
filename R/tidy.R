@@ -1,0 +1,22 @@
+#' Represent data in a 'tidy' format
+#'
+#' 'Tidy' data takes a 'long' view of data, where each variable is a column.
+#'
+#' @details This approach popularized by Hadley Wickhan; see the vignette in
+#'  the package 'dplyr'
+#'
+#' @param pdata_file character(1) The path to the phenotype data file
+#'
+#' @param exprs_file character(1) The path to the expression data file
+#'
+#' @return A data.frame with 'tidy' formatting.
+#'
+#' @importFrom reshape2 melt
+#'
+#' @export
+
+input_tidy <- function(pdata_file, exprs_file){
+    classic <- input_classic(pdata_file, exprs_file)
+    melt(classic, id.vars=1:22, variable.name="probeset", value.name="exprs")
+
+}
