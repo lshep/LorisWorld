@@ -12,12 +12,12 @@ input_rich(pdata_file, exprs_file)
 \item{exprs_file}{character(1) The path to the expression data file}
 }
 \value{
-A SummarizedExperiment() containing samples as colData(), and the 
+A SummarizedExperiment() containing samples as colData(), and the
    expression values as assay()
 }
 \description{
-Capture the semantic meaning of the data we represent. For instance, 
-separately recognizing the 'phenotypic' data (describing the sample) and the 
+Capture the semantic meaning of the data we represent. For instance,
+separately recognizing the 'phenotypic' data (describing the sample) and the
 'expression' values (derived from , eg microarray or RNAseq data)
 }
 
