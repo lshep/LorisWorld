@@ -1,6 +1,6 @@
 Package: LorisWorld
 Title: Implements Useful Utilities for my Personal Use
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: person("Lori", "Shepherd", email = "shepherl@gmail.com",
     role = c("aut", "cre"))
 Description: This is an amazing package that I've invested a really really
@@ -18,3 +18,4 @@ License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: testthat
