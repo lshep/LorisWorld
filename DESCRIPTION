@@ -1,6 +1,6 @@
 Package: LorisWorld
 Title: Implements Useful Utilities for my Personal Use
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Lori", "Shepherd", email = "shepherl@gmail.com",
     role = c("aut", "cre"))
 Description: This is an amazing package that I've invested a really really
@@ -9,6 +9,11 @@ Description: This is an amazing package that I've invested a really really
     awesomeness.
 Depends:
     R (>= 3.3.0)
+Imports:
+    SummarizedExperiment,
+    dplyr,
+    magrittr,
+    reshape2
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
