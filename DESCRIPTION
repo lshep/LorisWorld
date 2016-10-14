@@ -1,6 +1,6 @@
 Package: LorisWorld
 Title: Implements Useful Utilities for my Personal Use
-Version: 0.2.4
+Version: 0.2.5
 Authors@R: person("Lori", "Shepherd", email = "shepherl@gmail.com",
     role = c("aut", "cre"))
 Description: This is an amazing package that I've invested a really really
