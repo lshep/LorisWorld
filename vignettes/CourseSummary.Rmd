@@ -55,6 +55,9 @@ genes.
 hist(colMeans(classic[,-(1:22)]))
 ```
 
+To make this rmarkdow file an official package vignette see [here][4]
+
 [1]: https://cran.r-project.org/web/packages/devtools/index.html
 [2]: https://cran.r-project.org/package=roxygen2
 [3]: https://github.com
+[4]: http://rmarkdown.rstudio.com/package_vignette_format.html
